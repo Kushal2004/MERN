@@ -1,0 +1,52 @@
+.public {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header h1 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.features {
+    margin: 3%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.feature-item {
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    margin: 15px;
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+    
+}
+.feature-item:hover{
+    border: 1px solid rgba(255, 255, 255);
+}
+.feature-icon {
+    font-size: 3em;
+    color: #3498db;
+    margin-bottom: 15px;
+}
+
+.feature-item h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #ffffff;
+}
+
+.feature-item p {
+    font-size: 1em;
+    color: #928c8c;
+}
+
